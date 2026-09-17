@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Short, topology-verified Town01 route for the Fusion Safety Agent smoke test.
+  Coordinates were projected to CARLA Town01 road_id=4, lane_id=-1.  This file is
+  evaluation input only; the Agent receives the usual GNSS plan and never reads
+  CARLA actors or scenario truth.
+-->
+<routes>
+  <route id="620" town="Town01">
+    <weathers>
+      <weather route_percentage="0"
+        cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0"
+        wetness="0.0" wind_intensity="5.0" sun_azimuth_angle="0.0"
+        sun_altitude_angle="75.0" fog_density="0.0" />
+      <weather route_percentage="100"
+        cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0"
+        wetness="0.0" wind_intensity="5.0" sun_azimuth_angle="0.0"
+        sun_altitude_angle="75.0" fog_density="0.0" />
+    </weathers>
+    <waypoints>
+      <position x="107.0" y="133.417" z="0.5" />
+      <position x="147.0" y="133.434" z="0.5" />
+      <position x="187.0" y="133.452" z="0.5" />
+      <position x="227.0" y="133.470" z="0.5" />
+    </waypoints>
+    <scenarios />
+  </route>
+</routes>

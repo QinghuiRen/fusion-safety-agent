@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Short Town01 route cut from carla_garage's official longest6 route 0.
+  The DynamicObjectCrossing trigger is kept at the upstream coordinate and
+  receives no privileged annotation through the Agent interface.
+-->
+<routes>
+  <route id="627" town="Town01">
+    <weathers>
+      <weather route_percentage="0"
+        cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0"
+        wetness="0.0" wind_intensity="5.0" sun_azimuth_angle="0.0"
+        sun_altitude_angle="75.0" fog_density="0.0" />
+      <weather route_percentage="100"
+        cloudiness="5.0" precipitation="0.0" precipitation_deposits="0.0"
+        wetness="0.0" wind_intensity="5.0" sun_azimuth_angle="0.0"
+        sun_altitude_angle="75.0" fog_density="0.0" />
+    </weathers>
+    <waypoints>
+      <!-- Start after the unrelated traffic light and stop immediately after
+           the official crossing conflict.  This isolates the safety case. -->
+      <position x="340.000" y="-2.212" z="0.5" />
+      <position x="308.460" y="-2.228" z="0.5" />
+      <position x="295.000" y="-2.235" z="0.5" />
+    </waypoints>
+    <scenarios>
+      <scenario name="DynamicObjectCrossing_Stage620_Town01_OfficialGeometry"
+        type="DynamicObjectCrossing">
+        <trigger_point x="319.64" y="-2.2" z="1.0" yaw="180.0" />
+      </scenario>
+    </scenarios>
+  </route>
+</routes>

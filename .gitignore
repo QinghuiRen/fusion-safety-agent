@@ -1,0 +1,36 @@
+# Runtime environments, secrets, and generated results are not source artifacts.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# The fine-tuned model is distributed separately as a private Release asset.
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+*.whl
+
+# CARLA runs can contain large imagery and host-specific metadata.
+out/
+output/
+runs/
+logs/
+*.mp4
+*.avi
+*.log
+*.tmp
+*.bak
+build/
+dist/
+*.egg-info/

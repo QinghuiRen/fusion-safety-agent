@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Topology-probed Town10HD_Opt nominal route for cross-map false-intervention
+  regression. The sampled lane has one deterministic successor at each 30 m
+  step and no junction over the route. Evaluation metadata only: the Agent
+  still receives standard Leaderboard sensors and GNSS route commands.
+-->
+<routes>
+  <route id="627" town="Town10HD_Opt">
+    <weathers>
+      <weather route_percentage="0" cloudiness="10.0" precipitation="0.0"
+        precipitation_deposits="0.0" wetness="0.0" wind_intensity="5.0"
+        sun_azimuth_angle="20.0" sun_altitude_angle="70.0" fog_density="0.0" />
+      <weather route_percentage="100" cloudiness="10.0" precipitation="0.0"
+        precipitation_deposits="0.0" wetness="0.0" wind_intensity="5.0"
+        sun_azimuth_angle="20.0" sun_altitude_angle="70.0" fog_density="0.0" />
+    </weathers>
+    <waypoints>
+      <position x="-24.3" y="-57.7" z="0.5" />
+      <position x="5.7" y="-57.4" z="0.5" />
+      <position x="35.7" y="-57.4" z="0.5" />
+      <position x="65.7" y="-57.4" z="0.5" />
+      <position x="89.1" y="-47.8" z="0.5" />
+    </waypoints>
+    <scenarios />
+  </route>
+</routes>
